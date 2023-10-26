@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #74db4b;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #382d2d;
+}
+
+.task-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+input[type="text"], select {
+    flex: 1;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #2d0d8b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #020d1a;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.task-details {
+    flex: 1;
+}
+
+.deadline, .priority, .label {
+    font-size: 12px;
+    color: #777;
+    margin-right: 10px;
+}
+
+.priority {
+    color: #ff5733; /* Adjust the color for different priorities */
+}
+
+.label {
+    color: #337aff; /* Adjust the color for different labels */
+}
